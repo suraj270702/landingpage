@@ -15,18 +15,18 @@ import starImg from '../../img/homepage/Star 1 (1).png'
 
 const HomePage = () => {
   return (
-    <div className="ml-[10%]">
-      <div className=" flex ">
+    <div className="ml-[2.5%] lg:ml-[10%] ">
+      <div className=" flex flex-col lg:flex-row">
         <div className="relative w-full lg:w-1/2 ">
-          <div className="absolute  z-50 ">
-            <h1 className="text-[64px] font-bold text-[#000000]">
+          <div className="absolute z-40  lg:z-50 ">
+            <h1 className="text-[40px] lg:text-[64px] font-bold text-[#000000]">
               Make The Best
             </h1>
-            <h1 className="text-[64px] font-bold text-[#000000] -mt-3">
+            <h1 className="text-[40px] lg:text-[64px] font-bold text-[#000000] -mt-3">
               Financial Decisions
             </h1>
           </div>
-          <div className=" absolute top-[170px]  z-50">
+          <div className=" absolute top-[170px] z-40  lg:z-50">
             <p className="text-[18px] font-medium text-[#000000]">
               Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet
               faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.
@@ -52,7 +52,7 @@ const HomePage = () => {
             <Image src={groupImg} alt="group image" />
           </div>
         </div>
-        <div className="relative w-full lg:w-1/2 ">
+        <div className="relative w-full lg:w-1/2 hidden lg:block">
           <div className=" absolute top-6 left-20 z-10 ">
             <Image src={ellipseGrp1Img} alt="" />
           </div>

@@ -17,20 +17,20 @@ import group5Img from "../../img/testimonial/Group 31.png"
 
 const TestimonialPage = () => {
   return (
-    <div className="ml-[10%]">
+    <div className="ml-[2.5%] lg:ml-[10%]">
       <div>
         <h1 className="text-[18px] font-medium text-[#000000] text-center">
           Testimonial
         </h1>
-        <h1 className="text-[48px] font-bold text-[#000000] mt-1 text-center">
+        <h1 className="text-[34px] lg:text-[48px] font-bold text-[#000000] mt-1 text-center">
           What Our Users
         </h1>
-        <h1 className="text-[48px] font-bold text-[#000000] text-center -mt-3">
+        <h1 className="text-[34px] lg:text-[48px] font-bold text-[#000000] text-center -mt-3">
           Say About Us?
         </h1>
         <div className="mt-20">
-          <div className="flex">
-            <div className=" w-full lg:w-1/2 relative">
+          <div className="flex flex-col lg:flex-row">
+            <div className=" w-full lg:w-1/2 relative md:ml-20 lg:ml-0">
               <div className=" absolute z-30 -top-12 -left-20">
                 <Image src={groupImg} alt="" />
               </div>
@@ -46,29 +46,29 @@ const TestimonialPage = () => {
               <div className=" absolute -top-14 z-50">
                 <Image src={user1Img} alt="" />
               </div>
-              <div className=" absolute -top-10 left-72 z-50">
+              <div className=" absolute -top-10   left-48 md:left-64 lg:left-72 z-50">
                 <Image src={user2Img} alt="" />
               </div>
               <div className=" absolute top-56 -left-5 z-50">
                 <Image src={user3Img} alt="" />
               </div>
-              <div className=" absolute top-80 left-[350px] z-50">
+              <div className=" absolute top-64 lg:top-80  left-[200px]  md:left-[350px] z-50">
                 <Image src={user4Img} alt="" />
               </div>
               <div className=" absolute z-30 top-12 left-20">
                 <Image src={user5Img} alt="" />
               </div>
-              <div className="w-[80px] h-[80px] bg-[#FF5555] absolute z-50 top-28 left-72 flex items-center justify-center rounded-full">
+              <div className="w-[80px] h-[80px] bg-[#FF5555] absolute z-50 top-20 lg:top-28 left-48 md:left-60 lg:left-72 flex items-center justify-center rounded-full">
                 <Image src={logoImg} alt="" />
               </div>
             </div>
-            <div className="w-full lg:w-[40%] relative">
+            <div className="w-full lg:w-[40%] relative top-[450px] md:top-[550px] lg:top-0">
               <div>
-                <h1 className="text-[28px] font-semibold text-[#000000]">
+                <h1 className="text-[20px] lg:text-[28px] font-semibold text-[#000000]">
                   The Best Financial Accounting App Ever!
                 </h1>
                 <div className="mt-1">
-                  <p className="text-[18px] font-medium text-[#000000]">
+                  <p className="text-[16px] lg:text-[18px] font-medium text-[#000000]">
                     “Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
                     ultricies. In ultrices malesuada elit mauris etiam odio.
                     Duis tristique lacus, et blandit viverra nisl velit. Sed

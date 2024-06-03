@@ -31,26 +31,26 @@ const FeaturesPage = () => {
          }
     ]
   return (
-    <div className="ml-[10%]">
-      <div className="flex h-full">
-        <div className=" w-full lg:w-1/2 relative">
+    <div className="ml-[2.5%] lg:ml-[10%]">
+      <div className="flex h-full flex-col lg:flex-row gap-y-5">
+        <div className=" w-full lg:w-1/2 relative -top-20 lg:top-0 md:ml-20 lg:ml-0">
           <div className=" absolute z-30 -top-12 -left-20">
             <Image src={groupImg} alt="" />
           </div>
-          <div className=" absolute -top-5 left-10 z-30">
+          <div className=" absolute -top-5 lg:left-10 z-30">
             <Image src={ellipse1Img} alt="" />
           </div>
-          <div className=" absolute -top-10 left-16 z-30">
+          <div className=" absolute -top-10 lg:left-16 left-12 z-30">
             <Image src={ellipse1Img} alt="" />
           </div>
           <div className=" absolute top-5 z-10">
             <Image src={ellipse1Img} alt="" />
           </div>
-          <div className=" absolute -top-16 left-20 z-50">
+          <div className=" absolute -top-16 left-16 lg:left-20 z-50">
             <Image src={iphoneImg} alt="" />
           </div>
         </div>
-        <div className=" w-full lg:w-1/2 relative">
+        <div className=" w-full lg:w-1/2 relative top-64 md:top-[400px] lg:top-0">
             <div className=" flex flex-col justify-between w-full lg:w-[90%] z-50">
                 <h1 className="text-[18px] text-[#FF5555] font-medium">Features</h1>
                 <div className="mt-5 flex flex-col gap-y-3">
@@ -71,7 +71,7 @@ const FeaturesPage = () => {
                     </div>
                 </div>
             </div>
-             <div className=" absolute left-96 -top-20 z-10">
+             <div className=" absolute left-96 -top-20 z-10 hidden lg:block">
                 <Image src={group1Img} alt="" />
             </div>
         </div>

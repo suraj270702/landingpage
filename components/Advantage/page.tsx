@@ -8,33 +8,33 @@ import bellIconImg from '../../img/advantages/bell-02.png'
 
 const AdvantagePage = () => {
     
-    return ( <div className="ml-[10%]">
-    <div className="flex h-full">
+    return ( <div className="ml-[2.5%] lg:ml-[10%]">
+    <div className="flex flex-col lg:flex-row gap-y-5 h-full">
     <div className="w-full lg:w-1/2">
         <div>
             <h1 className="font-medium text-[18px] text-[#FF5555]">Advantages</h1>
-            <h1 className="font-bold text-[48px] text-[#000000] mt-1">Why Choose Urify</h1>
+            <h1 className="font-bold text-[34px] lg:text-[48px] text-[#000000] mt-1">Why Choose Urify</h1>
              <div className=" flex items-center gap-x-5">
                 <div className="w-[48px] h-[48px] rounded-full bg-[#FF5555] flex items-center justify-center">
                     <Image src={bellIconImg} alt="" className="" />
                     
                 </div>
-                <h1 className=" text-[28px] font-semibold text-[#000000]">Clever Notifications</h1>
+                <h1 className="text-[20px] lg:text-[28px] font-semibold text-[#000000]">Clever Notifications</h1>
                 </div>
                 <div className="mt-[20px]">
-                    <p className="text-[18px] font-medium text-[#000000]">Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.</p>
+                    <p className="text-[16px] lg:text-[18px] font-medium text-[#000000]">Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies. In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien, suspendisse aliquam.</p>
                 </div>
 
         </div>
     </div>
-      <div className=" w-full lg:w-1/2 relative">
+      <div className=" w-full lg:w-1/2 relative top-10 lg:top-0 md:ml-20 lg:ml-0">
         <div className=" absolute z-30 top-16 -left-20">
           <Image src={groupImg} alt="" />
         </div>
-        <div className=" absolute -top-5 left-10 z-30">
+        <div className=" absolute -top-5  lg:left-10 z-30">
           <Image src={ellipse1Img} alt="" />
         </div>
-        <div className=" absolute -top-10 left-16 z-30">
+        <div className=" absolute -top-10 left-12 lg:left-16 z-30">
           <Image src={ellipse1Img} alt="" />
         </div>
         <div className=" absolute top-5 z-10">
